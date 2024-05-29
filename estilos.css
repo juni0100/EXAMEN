@@ -1,0 +1,66 @@
+body {
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+main {
+    padding: 20px;
+    background-color: #f4f4f4; 
+}
+
+header h1 {
+    text-transform: uppercase; 
+    margin: 0;
+}
+
+p {
+    font-family: "Times New Roman", Times, serif;
+    text-align: justify; 
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+ul , li{
+    color: #333; 
+    font-weight: bold; 
+    display: inline-block;
+    width: 1rem;
+    margin-left: 1rem;
+}
+
+figure {
+    margin: 0;
+    display: inline-block; 
+    border: 1px solid #ccc; 
+    padding: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); 
+}
+
+figure:hover {
+    opacity: 0.8; 
+}
+
+figcaption {
+    text-align: center;
+    margin-top: 5px;
+}
+
+footer p {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s; 
+}
+
+footer p:hover {
+    color: #ff0; 
+}
